@@ -14,7 +14,6 @@ cache:
 
 script: "./gradlew clean build"
 
-
 before_deploy:
   - zip -r springboot-webservice2 *
   - mkdir -p deploy
@@ -51,4 +50,4 @@ deploy:
 #notifications:
 #  email:
 #    recipients:
-#      - fxwooo@gmail.com
+#      - jojoldu@gmail.com
