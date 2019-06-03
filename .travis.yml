@@ -48,7 +48,7 @@ deploy:
       repo: ohjungwoo/springboot-webservice2
       branch: master
 
-notifications:
-  email:
-    recipients:
-      - fxwooo@gmail.com
+#notifications:
+#  email:
+#    recipients:
+#      - fxwooo@gmail.com
