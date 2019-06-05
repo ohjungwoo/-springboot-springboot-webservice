@@ -36,8 +36,10 @@ public class WebRestController {
 
     @GetMapping("/profile")
     public String getProfile () {
+        System.out.println(env.getActiveProfiles()[0] );
+        System.out.println(env.getActiveProfiles()[1] );
         return Arrays.stream(env.getActiveProfiles())
-                .findFirst()
+                .reduce((l, r) -> r)
                 .orElse("");
     }
 }
