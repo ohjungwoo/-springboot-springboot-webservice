@@ -1,5 +1,6 @@
 package com.jojoldu.webservice.web;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,7 @@ public class WebRestControllerTest {
     @Autowired
     private TestRestTemplate restTemplate;
 
+    @Ignore
     @Test
     public void Profile확인 () {
         //when
